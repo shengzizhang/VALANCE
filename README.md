@@ -45,7 +45,7 @@ Pretrained models for all 25 bNAbs across all three thresholds are available for
 >
 > This token is personal and should **never** be baked into the image or committed to the repo — pass it at `docker run` time only.
 
-Training is a two-step process: generate ESM2 embeddings for your training data, then fit the TabPFN classifier at a chosen IC₅₀ cutoff.
+Training is a two-step process: generate ESM2 embeddings for your training data (by replacing "env_neu_unique_ab_removed_outliers_duplicates_geomean_include_TBDs.txt"), then fit the TabPFN classifier at a chosen IC₅₀ cutoff.
 
 ```bash
 # 1. Generate ESM2 embeddings
@@ -91,7 +91,7 @@ docker run -it --rm \
   --train_embedding /work/data/VRC01_training.h5
 ```
 
-## Verified Test Run
+## Example Test Run
 
 The commands below are a minimal, confirmed-working test covering all three modes — useful for a small test run before training/testing on real antibodies & viruses.
 
