@@ -93,7 +93,7 @@ docker run -it --rm \
 
 ## Example Test Run
 
-The commands below are a minimal, confirmed-working test covering all three modes — useful for a small test run before training/testing on real antibodies & viruses.
+The commands below are a sample test run on a small dataset before training/testing on real antibodies & viruses.
 
 ```bash
 # Predict
