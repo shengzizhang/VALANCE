@@ -33,7 +33,7 @@ docker run -it --rm \
   --outfile /work/output/VRC01_prediction_thres50.0.txt
 ```
 
-Pretrained models for all 25 bNAbs across all three thresholds are available for download at **[link to model hosting page]**. Reference alignments for each antibody are included in this repository under [`reference_alignment/`](https://github.com/shengzizhang/VALANCE/tree/main/reference_alignment) and baked into the image.
+Pretrained models for all 25 bNAbs across all three thresholds are available for download at **[TBD]**. Reference alignments for each antibody are included in this repository under [`reference_alignment/`](https://github.com/shengzizhang/VALANCE/tree/main/reference_alignment) and baked into the image.
 
 ### Train a model from scratch
 
@@ -169,4 +169,4 @@ Omit the `http_proxy`/`https_proxy`/`no_proxy` lines entirely if your network do
 
 If you use VALANCE, please cite:
 
-[citation to be added upon publication]
+[TBD]
