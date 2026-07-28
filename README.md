@@ -157,12 +157,6 @@ sudo docker run -it --rm \
 Omit the `http_proxy`/`https_proxy`/`no_proxy` lines entirely if your network doesn't require a proxy for outbound internet access.
 
 
-## Notes
-
-* One image supports both training and prediction; the mode is selected by the first argument to `docker run` (`predict`, `embed`, `train`, `train-nested`, or `bash` for an interactive shell).
-* Pretrained models, reference alignments used at inference time, and input/output data are bind-mounted rather than baked into the image, keeping the image reusable across antibodies and updatable as new models are released.
-* Mount only the directories you need for a given mode — `-v host_path:container_path`.
-
 ## Citation
 
 If you use VALANCE, please cite:
