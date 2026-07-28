@@ -4,7 +4,7 @@
 
 VALANCE is a machine learning pipeline that predicts HIV-1 broadly neutralizing antibody (bNAb) resistance from Env sequences. It embeds sequences with ESM2, performs feature down-selection, and classifies neutralization sensitivity/resistance with a fine-tuned TabPFN transformer at a chosen IC₅₀ threshold (0.2, 1, or 50 µg/mL).
 
-A docker image of the pipeline can be accessed via: [https://hub.docker.com/r/zzshenglab/nanohivseq](https://hub.docker.com/r/zzshenglab/valance)
+A docker image of the pipeline can be accessed via: [https://hub.docker.com/r/zzshenglab/valance)]
 
 ## Requirements
 
