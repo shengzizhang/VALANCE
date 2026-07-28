@@ -43,9 +43,7 @@ Pretrained models for all 25 bNAbs across all three thresholds are available for
 > 3. Go to **Account** and copy your API key.
 > 4. Pass it to the container as an environment variable via `-e TABPFN_TOKEN="your-token-here"` on every `train`/`train-nested` run (see below).
 >
-> This token is personal and should **never** be baked into the image or committed to the repo — pass it at `docker run` time only, ideally via an `--env-file` you keep out of version control rather than typing it inline in a shared shell history.
->
-> **Behind a corporate/institutional proxy?** TabPFN verifies your token over HTTPS on first use each run. If your network requires a proxy for outbound internet access, also pass `-e http_proxy=... -e https_proxy=...` alongside `-e TABPFN_TOKEN=...` — otherwise verification will silently retry and time out on every cross-validation fold, making training much slower than it needs to be (it still runs, just wastes time waiting).
+> This token is personal and should **never** be baked into the image or committed to the repo — pass it at `docker run` time only.
 
 Training is a two-step process: generate ESM2 embeddings for your training data, then fit the TabPFN classifier at a chosen IC₅₀ cutoff.
 
