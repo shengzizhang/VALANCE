@@ -7,11 +7,12 @@ VALANCE is a machine learning pipeline that predicts HIV-1 broadly neutralizing 
 A docker image of the pipeline can be accessed via: [https://hub.docker.com/r/zzshenglab/valance)]
 
 ## Requirements
-
+We recommend to use docker to run VALANCE to avoid package compatibility issues.
 * NVIDIA GPU with CUDA 12.6-compatible driver
 * [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) / NVIDIA Container Toolkit installed
+docker pull zzshenglab/valance:v1.0
 
-## instal to python virtual env
+## alternative instal to python virtual env
 python -m venv VALANCE
 
 Mac:
@@ -25,6 +26,7 @@ VALANCE\Scripts\activate
 Then:
 
 pip install -r requirements.txt
+
 ## Quick Start
 
 ### Predict resistance for new sequences
