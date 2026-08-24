@@ -15,10 +15,15 @@ A docker image of the pipeline can be accessed via: [https://hub.docker.com/r/zz
 *python -m venv VALANCE
 
 Mac:
+
 *source VALANCE/bin/activate
+
 Windows:
+
 VALANCE\Scripts\activate
+
 Then:
+
 *pip install -r requirements.txt
 ## Quick Start
 
