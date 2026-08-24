@@ -12,11 +12,11 @@ A docker image of the pipeline can be accessed via: [https://hub.docker.com/r/zz
 * [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) / NVIDIA Container Toolkit installed
 
 ## instal to python virtual env
-*python -m venv VALANCE
+* python -m venv VALANCE
 
 Mac:
 
-*source VALANCE/bin/activate
+* source VALANCE/bin/activate
 
 Windows:
 
@@ -24,7 +24,7 @@ VALANCE\Scripts\activate
 
 Then:
 
-*pip install -r requirements.txt
+* pip install -r requirements.txt
 ## Quick Start
 
 ### Predict resistance for new sequences
